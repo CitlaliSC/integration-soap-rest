@@ -1,0 +1,68 @@
+# Visual Studio / .NET
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+/bin/
+/obj/
+**/bin/
+**/obj/
+artifacts/
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# dotnet dev-certs
+**/aspnetcore-local-cert.pfx
+
+# Docker
+docker-compose.override.yml
+
+# Certificates and secrets
+secrets.json
+*.pfx
+
+# Test results
+TestResults/
+
+# Local user-specific files
+*.userprefs
+
+# Coverage
+coverage*/
+
+# Single-file publish
+*.map
+
+# Ignore generated files from build system
+*.cache
+
+# Ignore JetBrains Rider caches
+.idea/
+
+# Ignore Visual Studio cache files
+*.db
+
+# Ignore launch settings in case user has local changes (optional)
+# Uncomment if you don't want to keep launchSettings.json in repo
+# **/Properties/launchSettings.json
